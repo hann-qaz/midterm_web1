@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.carousel-image {
+    height: 500px;
+    object-fit: cover;
+}
+
+.card-img-top {
+    height: 220px;
+    object-fit: cover;
+}
+
+/* Make carousel text easier to read */
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* Smaller carousel on phones */
+@media (max-width: 576px) {
+    .carousel-image {
+        height: 300px;
+    }
+}
